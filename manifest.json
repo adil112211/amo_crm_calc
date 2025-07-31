@@ -1,0 +1,27 @@
+{
+  "name": "Rent Calculator",
+  "version": "1.0.0",
+  "init": {
+    "client": {
+      "desktop": {
+        "url": "https://adil112211.github.io/amocrm_crm_calc/index.html"
+      }
+    }
+  },
+  "locations": ["client"],
+  "widgets": {
+    "client": {
+      "desk": {
+        "url": "https://adil112211.github.io/amocrm_crm_calc/index.html"
+      }
+    }
+  },
+  "integration": {
+    "widget": {
+      "title": "Калькулятор аренды",
+      "icon": "https://adil112211.github.io/amo_crm_calc/icon.png",
+      "description": "Расчёт аренды и эксплуатации по площади",
+      "version": "1.0"
+    }
+  }
+}
