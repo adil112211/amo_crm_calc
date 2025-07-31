@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Калькулятор аренды</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="calculator">
+    <h2>Калькулятор аренды</h2>
+
+    <label>Площадь (м²)</label>
+    <input type="number" id="area" placeholder="например, 100" />
+
+    <label>Ставка без НДС (₸/м²)</label>
+    <input type="number" id="rateNoVat" placeholder="например, 3000" />
+
+    <label>Ставка с НДС (₸/м²)</label>
+    <input type="number" id="rateWithVat" placeholder="например, 3360" />
+
+    <button onclick="calculate()">Рассчитать</button>
+
+    <div id="results">
+      <p><strong>Аренда с НДС:</strong> <span id="withVat">—</span> ₸</p>
+      <p><strong>Аренда без НДС:</strong> <span id="noVat">—</span> ₸</p>
+      <p><strong>Эксплуатация:</strong> <span id="ops">—</span> ₸</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
